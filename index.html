@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub File Uploader</title>
+</head>
+<body>
+    <h1>Upload a File to Your GitHub Repository</h1>
+    <label for="token">GitHub Personal Access Token:</label><br>
+    <input type="password" id="token" name="token" size="50"><br><br>
+
+    <label for="username">GitHub Username:</label><br>
+    <input type="text" id="username" name="username"><br><br>
+
+    <label for="repo">Repository Name:</label><br>
+    <input type="text" id="repo" name="repo"><br><br>
+
+    <label for="file">Choose a file to upload:</label><br>
+    <input type="file" id="file" name="file"><br><br>
+
+    <button onclick="uploadFile()">Upload File</button>
+
+    <script src="upload.js"></script>
+</body>
+</html>
